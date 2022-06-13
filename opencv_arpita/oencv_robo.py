@@ -121,11 +121,8 @@ for i in range(0,4):
 
 
 cv2.imshow('final',imgResult)
-
-
-
 cv2.imshow('image',cont_img)
-cv2.imwrite('final.jpg',cont_img)
+cv2.imwrite('final.jpg',imgResult)
 cv2.waitKey(0)
 
 
