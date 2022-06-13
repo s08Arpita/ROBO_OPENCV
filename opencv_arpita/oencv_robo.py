@@ -120,11 +120,12 @@ for i in range(0,4):
     imgResult = cv2.bitwise_or(imgResult, imgOut)
 
 
-cv2.imshow('outside',imgResult)
+cv2.imshow('final',imgResult)
 
 
 
-cv2.imshow('finall',cont_img)
+cv2.imshow('image',cont_img)
+cv2.imwrite('final.jpg',cont_img)
 cv2.waitKey(0)
 
 
